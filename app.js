@@ -6,7 +6,7 @@ function searchCity() {
   $.getJSON(
     "https://api.openweathermap.org/data/2.5/weather?q=" +
       userCity +
-      "&appid=244adec19c53db0f9ef155e9aa0b3d85",
+      "&appid=60bb0073511cec1c2936a6d55b9b9c8a",
     function (data) {
       console.log(data);
       console.log(data.name);
